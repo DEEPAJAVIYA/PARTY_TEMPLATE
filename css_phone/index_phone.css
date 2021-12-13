@@ -1,0 +1,499 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+}
+
+:root {
+  --black: black;
+  --white: white;
+  --background-color: #280045;
+  --secondary-color: rgb(195, 147, 203);
+  --third-color: rgb(233, 30, 99);
+}
+
+.main .navbar {
+  padding: 0 0;
+}
+
+.main .navbar .navbar-brand {
+  font-size: 2.3rem;
+}
+
+.main .navbar-toggler {
+  background-color: #7e117e;
+  width: 3rem;
+  height: 2rem;
+  text-align: center;
+}
+
+.main .navbar-toggler .navbar-toggler-icon {
+  width: 1.5rem;
+  height: 1rem;
+}
+
+.main .navbar-light .navbar-nav .nav-link {
+  width: 100vw;
+  text-align: center;
+}
+
+.main .home_main {
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, black), color-stop(transparent), to(black)), url("/pics/home_main_bg.png");
+  background: linear-gradient(90deg, black 25%, transparent, black), url("/pics/home_main_bg.png");
+  width: 100vw;
+  height: 29rem;
+  background-position: absolute;
+  background-size: cover;
+  top: 3rem;
+}
+
+.main .home_main .home_submain {
+  position: relative;
+  top: 6.9rem;
+  padding: 0rem 7vw;
+}
+
+.main .home_main .home_submain h1 {
+  font-size: 2.3rem;
+}
+
+.main .home_main .home_submain p {
+  font-size: 1.4rem;
+}
+
+.main .home_main .home_submain button {
+  margin-top: 1.3rem;
+  width: 7rem;
+  height: 2rem;
+  font-size: 1rem;
+  border: 1px solid var(--third-color);
+}
+
+.main .common_title .line {
+  width: 3.3rem;
+}
+
+.main .common_title p {
+  font-size: 1rem;
+  margin: 1.5rem 0rem;
+}
+
+.main .we_do_main {
+  padding: 2rem 8vw;
+}
+
+.main .we_do_main .we_do_boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .we_do_main .we_do_boxes .box {
+  width: auto;
+  height: 16rem;
+  margin-top: 1rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.main .we_do_main .we_do_boxes .box .bg {
+  width: 6rem;
+  height: 6rem;
+}
+
+.main .we_do_main .we_do_boxes .box i {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.main .we_do_main .we_do_boxes .box h6 {
+  font-size: 1.3rem;
+}
+
+.main .we_do_main .we_do_boxes .box span {
+  font-size: 1rem;
+}
+
+.main .who_we_are_main {
+  padding: 2rem 8vw;
+}
+
+.main .who_we_are_main .who_we_are_div2 .who_we_are_div2_one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main .who_we_are_main .who_we_are_div2 .who_we_are_div2_one h6 {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.main .who_we_are_main .who_we_are_div2 .who_we_are_div2_one h5 {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.main .who_we_are_main .who_we_are_div2 .who_we_are_div2_one h4 {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.main .who_we_are_main .who_we_are_div2 .who_we_are_div2_one .para {
+  padding-top: 1rem;
+}
+
+.main .who_we_are_main .who_we_are_div2 .who_we_are_div2_one .para p {
+  font-size: 0.8rem;
+}
+
+.main .who_we_are_main .who_we_are_div2 .who_we_are_div2_two {
+  width: 25rem;
+  height: 20rem;
+  padding: 0rem 3vw;
+}
+
+.main .gallery_main {
+  padding: 2rem 8vw;
+}
+
+.main .gallery_main .gallery {
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.main .gallery_main .gallery .pic {
+  width: 18rem;
+  height: 16rem;
+  margin: 0.5rem 0rem;
+}
+
+.main .gallery_main .gallery .pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.main .our_event_main {
+  padding: 2rem 2vw;
+}
+
+.main .our_event_main .our_events {
+  padding: 1rem 2vw;
+}
+
+.main .our_event_main .our_events .event {
+  height: auto;
+  margin-top: 1rem;
+}
+
+.main .our_event_main .our_events .event .event_video {
+  width: 13rem;
+}
+
+.main .our_event_main .our_events .event .event_video h5 {
+  font-size: 0.8rem;
+}
+
+.main .our_event_main .our_events .event .event_video p {
+  font-size: 0.6rem;
+}
+
+.main .our_event_main .our_events .event .event_title {
+  height: 8rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.main .our_event_main .our_events .event .event_title h6 {
+  font-size: 1.1rem;
+}
+
+.main .our_event_main .our_events .event .event_title p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 5rem;
+  font-size: 0.8rem;
+  padding: 0rem;
+}
+
+.main .get_our_services_main {
+  padding: 2rem 8vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.main .get_our_services_main .get_our_services_title {
+  width: auto;
+  padding: 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .get_our_services_main .get_our_services_title h1 {
+  font-size: 2rem;
+}
+
+.main .get_our_services_main .get_our_services_title p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.main .get_our_services_main .get_our_services_title button {
+  width: 7rem;
+  height: 2.5rem;
+  padding: 0.2rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.main .get_our_services_main .get_our_services_pic {
+  width: auto;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.main .get_our_services_main .get_our_services_pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.main .our_team_main {
+  padding: 2rem 8vw;
+}
+
+.main .our_team_main .our_team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main .our_team_main .our_team .team_member {
+  width: 15rem;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.main .our_team_main .our_team .team_member .team_member_pic {
+  height: 17rem;
+}
+
+.main .our_team_main .our_team .team_member .team_member_pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.main .our_team_main .our_team .team_member .middleline {
+  height: 0.3rem;
+}
+
+.main .our_team_main .our_team .team_member .team_member_info h6 {
+  font-size: 1.4rem;
+}
+
+.main .our_team_main .our_team .team_member .team_member_info p {
+  font-size: 0.9rem;
+}
+
+.main .our_team_main .our_team .team_member .team_member_info .team_member_contact i {
+  width: 2.5rem;
+  height: 1.8rem;
+  margin: 0rem 0.3rem;
+  font-size: 1rem;
+}
+
+.main .price_main {
+  padding: 2rem 8vw;
+}
+
+.main .price_main .prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .price_main .prices .pricetype {
+  margin-top: 1.5rem;
+  width: auto;
+  height: auto;
+}
+
+.main .price_main .prices .pricetype .pricetype1 {
+  height: auto;
+}
+
+.main .price_main .prices .pricetype .pricetype1 .p2 .aaa h6 {
+  font-size: 1.8rem;
+}
+
+.main .price_main .prices .pricetype .pricetype1 .p2 .aaa span {
+  height: 3rem;
+}
+
+.main .price_main .prices .pricetype .pricetype1 .p2 .bbb {
+  font-size: 2.3rem;
+}
+
+.main .price_main .prices .pricetype2 {
+  height: auto;
+  padding: 0rem 0rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.main .price_main .prices .pricetype3 {
+  width: auto;
+  height: auto;
+  font-size: 0.9rem;
+  padding: 0.5rem 0rem;
+}
+
+.main .price_main .prices .pricetype3 ul li {
+  padding: 0.1rem 0rem;
+}
+
+.main .price_main .prices .reg_btn button {
+  width: 9rem;
+  height: 2.2rem;
+  font-size: 0.8rem;
+}
+
+.contact_us {
+  padding: 2vw 8vw;
+}
+
+.contact_us .contact_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact_us .contact_main .contact1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+}
+
+.contact_us .contact_main .contact1 .c {
+  width: 18rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact_us .contact_main .contact1 .c h6 {
+  font-size: 1.1rem;
+}
+
+.contact_us .contact_main .contact1 .c h6 a i {
+  font-size: 1.5rem;
+  margin-right: 0.2rem;
+}
+
+.contact_us .contact_main .contact2 {
+  width: auto;
+  height: auto;
+}
+
+.contact_us .contact_main .contact2 input {
+  margin-bottom: 1rem;
+}
+
+.contact_us .contact_main .contact2 button {
+  width: 5rem;
+  height: 2.3rem;
+  margin-top: 1rem;
+  margin-left: 61vw;
+}
+
+.contact_us .map iframe {
+  width: 100%;
+  height: 13rem;
+  margin: 1rem 0rem;
+}
+
+footer {
+  padding: 0.6rem;
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=index_phone.css.map */
