@@ -1,1 +1,1 @@
-# PARTY_TEMPLATE
+# partyOrganizationTemplate
